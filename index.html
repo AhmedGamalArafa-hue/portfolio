@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Gamal | UI/UX Designer & Front-End Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Portfolio of Ahmed Gamal Ahmed Arafa Amr, a UI/UX Designer and Front-End Developer.">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="floating-nav">
+        <div class="nav-container">
+            <a href="#home" class="logo">Ahmed Gamal</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn-contact-nav">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <label class="theme-switch" for="theme-checkbox">
+                    <input type="checkbox" id="theme-checkbox" />
+                    <div class="slider round">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </label>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="hero-content fade-in-up">
+            <p class="greeting">Hello, I'm</p>
+            <h1 class="name">Ahmed Gamal <span class="gradient-text">Arafa Amr</span></h1>
+            <h2 class="title">UI/UX Designer & Front-End Developer</h2>
+            <p class="subtitle">I build user-friendly, modern, and visually appealing websites.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-visual fade-in">
+            <div class="popout-wrapper">
+                <!-- Organic Blob Background Frame clipping the bottom -->
+                <div class="blob-frame">
+                    <img src="profile.png" alt="Ahmed Gamal Arafa" class="profile-img inside-img">
+                </div>
+
+                <!-- Exact copy of image popping out of the top -->
+                <img src="profile.png" alt="" class="profile-img outside-img" aria-hidden="true">
+            </div>
+
+            <!-- Decorative elements for Hero -->
+            <div class="blob shape-1"></div>
+            <div class="blob shape-2"></div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container auto-show">
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <img src="about-profile.png" alt="Ahmed Gamal Arafa" class="about-img">
+                    <div class="about-img-frame"></div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title about-title">About <span>Me</span></h2>
+                    <p class="lead">Senior Business Information Systems student with a strong passion for UI/UX design
+                        and web development.</p>
+                    <p>My interest in shaping digital experiences started during my academic journey. I strive to blend
+                        my technical knowledge with an eye for design, focusing heavily on building user-friendly,
+                        modern, and visually appealing websites.</p>
+
+                    <h3 class="strengths-title">My Strengths</h3>
+                    <ul class="strengths-list">
+                        <li><i class="fas fa-check-circle"></i> Team player</li>
+                        <li><i class="fas fa-check-circle"></i> Can work under pressure</li>
+                        <li><i class="fas fa-check-circle"></i> Fast learner</li>
+                        <li><i class="fas fa-check-circle"></i> Passionate about design & continuous improvement</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section bg-secondary">
+        <div class="container auto-show">
+            <h2 class="section-title">My <span>Skills</span></h2>
+
+            <div class="skills-wrapper">
+
+                <!-- Category 1 -->
+                <div class="skill-category-section">
+                    <h3 class="category-heading"><i class="fas fa-code"></i> Technical Skills</h3>
+                    <div class="skills-items-grid">
+                        <div class="skill-item-card card hover-effect">
+                            <i class="fab fa-html5 skill-icon" style="color: #e44d26;"></i>
+                            <h4>HTML</h4>
+                            <div class="progress-bg">
+                                <div class="progress-fill" style="width: 95%;">95%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item-card card hover-effect">
+                            <i class="fab fa-css3-alt skill-icon" style="color: #264de4;"></i>
+                            <h4>CSS</h4>
+                            <div class="progress-bg">
+                                <div class="progress-fill" style="width: 90%;">90%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item-card card hover-effect">
+                            <i class="fab fa-js skill-icon" style="color: #f7df1e;"></i>
+                            <h4>JavaScript</h4>
+                            <div class="progress-bg">
+                                <div class="progress-fill" style="width: 85%;">85%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item-card card hover-effect">
+                            <i class="fas fa-database skill-icon" style="color: #336791;"></i>
+                            <h4>SQL</h4>
+                            <div class="progress-bg">
+                                <div class="progress-fill" style="width: 75%;">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="skill-category-section">
+                    <h3 class="category-heading"><i class="fas fa-pen-nib"></i> Design Tools</h3>
+                    <div class="skills-items-grid">
+                        <div class="skill-item-card card hover-effect">
+                            <img src="figma.png" alt="Figma" class="skill-icon-img">
+                            <h4>Figma</h4>
+                            <div class="progress-bg">
+                                <div class="progress-fill" style="width: 95%;">95%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item-card card hover-effect">
+                            <img src="photoshop.png" alt="Photoshop" class="skill-icon-img">
+                            <h4>Photoshop</h4>
+                            <div class="progress-bg">
+                                <div class="progress-fill" style="width: 90%;">90%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="skill-category-section">
+                    <h3 class="category-heading"><i class="fas fa-tools"></i> Tools & Tech</h3>
+                    <div class="skills-items-grid">
+                        <div class="skill-item-card card hover-effect">
+                            <i class="fas fa-chart-bar skill-icon" style="color: #f2c811;"></i>
+                            <h4>Power BI</h4>
+                            <div class="progress-bg">
+                                <div class="progress-fill" style="width: 85%;">85%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item-card card hover-effect">
+                            <i class="fas fa-file-excel skill-icon" style="color: #217346;"></i>
+                            <h4>Excel & Word</h4>
+                            <div class="progress-bg">
+                                <div class="progress-fill" style="width: 90%;">90%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item-card card hover-effect">
+                            <i class="fas fa-file-powerpoint skill-icon" style="color: #d24726;"></i>
+                            <h4>PPT & Access</h4>
+                            <div class="progress-bg">
+                                <div class="progress-fill" style="width: 80%;">80%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item-card card hover-effect">
+                            <i class="fas fa-network-wired skill-icon" style="color: #00add8;"></i>
+                            <h4>SCADA Systems</h4>
+                            <div class="progress-bg">
+                                <div class="progress-fill" style="width: 85%;">85%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container auto-show">
+            <h2 class="section-title">Professional <span>Experience</span></h2>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card hover-effect">
+                        <h3>SCADA Department (Monitoring & Control)</h3>
+                        <h4>Wastewater Treatment Plant | <span>Current</span></h4>
+                        <p>Currently working in a wastewater treatment plant, managing monitoring and control systems.
+                            Gaining analytical and system-level troubleshooting experience.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card hover-effect">
+                        <h3>College Projects</h3>
+                        <h4>Academic Background</h4>
+                        <p>Worked on multiple programming projects throughout my academic journey, applying both
+                            Business Information Systems concepts and practical software development.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card hover-effect">
+                        <h3>Photography Studio Role</h3>
+                        <h4>Freelance / Studio Experience</h4>
+                        <p>Developed a sharp eye for detail, composition, and visual aesthetics, heavily contributing to
+                            my current UI/UX design skillset.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section bg-secondary">
+        <div class="container auto-show">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card card hover-effect">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Anti-Monopoly Awareness Platform</h3>
+                        <p class="project-role"><strong>Role:</strong> UI/UX Designer & Asst. Front-End Dev</p>
+                        <p>A graduation project aimed at creating an extensive platform for anti-monopoly awareness,
+                            educating users about fair market practices.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Figma</span>
+                        </div>
+                        <a href="#" class="btn btn-outline"><i class="fas fa-external-link-alt"></i> View Project</a>
+                    </div>
+                </div>
+
+                <!-- Placeholder Project -->
+                <div class="project-card card hover-effect">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Future Project Showcase</h3>
+                        <p class="project-role"><strong>Role:</strong> Front-End Developer</p>
+                        <p>A placeholder for upcoming works. Clean, modern web applications built translating UI/UX
+                            designs into responsive code.</p>
+                        <div class="project-tech">
+                            <span>Framework</span>
+                            <span>API</span>
+                            <span>CSS Grid</span>
+                        </div>
+                        <a href="#" class="btn btn-outline disabled">Coming Soon</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container auto-show">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3 class="contact-heading">Got a project in mind?</h3>
+                    <p class="contact-lead">I'm currently available for job applications, internships, and freelance
+                        projects. Let's create something amazing together. Feel free to reach out anytime!</p>
+
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/ahmed-gamal-arafa-271031338/" target="_blank"
+                            class="social-btn">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>Connect on LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-methods">
+                    <a href="mailto:ahmedgamalahmedarafaamr@gmail.com" class="method-card">
+                        <div class="method-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="method-details">
+                            <h4>Email Me</h4>
+                            <span>ahmedgamalahmedarafaamr@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <a href="tel:+201558600230" class="method-card">
+                        <div class="method-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="method-details">
+                            <h4>Primary Phone</h4>
+                            <span>0155 860 0230</span>
+                        </div>
+                    </a>
+
+                    <a href="tel:+201152879438" class="method-card">
+                        <div class="method-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="method-details">
+                            <h4>Alternative Phone</h4>
+                            <span>0115 287 9438</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ahmed Gamal Ahmed Arafa Amr. All Rights Reserved.</p>
+            <p class="footer-design">Designed & Built with passion.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
